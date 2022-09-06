@@ -23,10 +23,10 @@ My main goal is to become full-stack developer. And my first step is to graduate
 
 ## Skills
 
-- **Hard skills**</br>
+- **Hard skills**<br>
 Project management, Budgeting, Jira, MS Project Professional, Bitrix24, Agile
 
-- **Soft skills**</br>
+- **Soft skills**<br>
 Business correspondence and negotiations, Product presentation and self-presentation, Working with a large amount of information, Sociability, Teamwork, Responsibility, Attentiveness, Stress resistance, Conflict resolution, Self-learning.
 
 ## Code example
@@ -46,22 +46,22 @@ function countBy(x, n) {
 
 ## Work experience
 
-- **FLLC «Omsk Carbon Mogilev»**</br>
-*September 2017 — present (5 years)*</br>
+- **FLLC «Omsk Carbon Mogilev»**<br>
+*September 2017 — present (5 years)*<br>
 Project management specialist
 
-- **Belorussian-Russian University**</br>
-*September 2015 — September 2017 (2 years)*</br>
+- **Belorussian-Russian University**<br>
+*September 2015 — September 2017 (2 years)*<br>
 Trainee assistant
 
 ## Education
 
-- **Belorussian-Russian University**</br>
-*Graduated 2015, Engineering faculty, Engineering construction*</br>
+- **Belorussian-Russian University**<br>
+*Graduated 2015, Engineering faculty, Engineering construction*<br>
 Master's degree of engineering (Magistracy)
 
-- **Belorussian-Russian University**</br>
-*Graduated 2014, Engineering faculty, Engineering construction*</br>
+- **Belorussian-Russian University**<br>
+*Graduated 2014, Engineering faculty, Engineering construction*<br>
 Civil engineer (Higher education)
 
 ## English
