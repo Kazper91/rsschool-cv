@@ -6,7 +6,7 @@
 * Phone number / Telegram: +375(44)714-92-81
 * Skype: kazper-91
 * e-mail: kazper91@gmail.com
-* Discord: Kazper91#0967 (RSS: Igor Reutskiy (@Kazper91))
+* Discord: Kazper91#0967 (RS Server: Igor Reutskiy (@Kazper91))
 * Codewars: https://www.codewars.com/users/Kazper91
 
 ## About myself
