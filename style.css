@@ -1,19 +1,14 @@
-html, body {
+body {
     font-family: Calibri, serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-table {
-    border-collapse: collapse;
-}
-
-table.border td, table.border th {
-    padding: 5px;
-    border: 1px solid #f8f8ff;
-}
-
-table.border th {
-    background: #9c9c9c;
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
