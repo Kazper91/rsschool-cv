@@ -10,14 +10,26 @@
 </head>
 <body>
     <header class="header">
-        <nav class="nav">
+        <nav class="container">
             <ul class="nav-list">
-                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item">
+                    <a href="#contacts" class="nav-link">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#summary" class="nav-link">Summary</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#code" class="nav-link">Code</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -25,7 +37,7 @@
     <main class="main">
         <div class="main-left">
             <photo>
-                <img class="photo" src="./assets/photo.jpg" alt="Photo" width="300px" height="300px">
+                <img class="photo" src="./assets/photo.jpg" alt="Photo" width="350px" height="350px">
             </photo>
             <section id="contacts">
                 <h2>Contacts</h2>
@@ -36,8 +48,7 @@
                     </li>
                     <li class="main-left-item">
                         <b>Email:</b><br>
-                        <a href="mailto:kazper91@gmail.com">kazper91@gmail.com</a>
-                    </li>
+                        <a href="mailto:kazper91@gmail.com">kazper91@gmail.com</a></li>
                     <li class="main-left-item">
                         <b>Telegram:</b><br>
                         +375447149281
@@ -68,8 +79,7 @@
 
         <div class="main-right">
             <section class="title">
-                <h1>Igor</h1><br>
-                <h1>Reutskiy</h1><br>
+                <h1>Igor Reutskiy</h1><br>
                 <p>Rolling Scopes Student (Front-end course)</p>
             </section>
             <section id="summary">
@@ -80,62 +90,52 @@
                 Find myself as easygoing, diving deep into things and open to new opportunies person. Ready for business trips and relocation.</p>
             </section>
             <section id="skills">
-                <ul class="main-right-list">
-                    <li class="main-right-item">
-                        MS Project Professional
-                    </li>
-                    <li class="main-right-item">
-                        Bitrix24
-                    </li>
-                    <li class="main-right-item">
-                        Agile
-                    </li>
-                    <li class="main-right-item">
-                        JavaScript/ES6 (Beginner)
-                    </li>
-                    <li class="main-right-item">
-                        HTML5/CSS (Beginner)
-                    </li>
-                </ul>
+                <h2>Skills</h2>
+                    <ul class="main-right-list">
+                        <li class="main-right-item">
+                            MS Project Professional
+                        </li>
+                        <li class="main-right-item">
+                            Bitrix24
+                        </li>
+                        <li class="main-right-item">
+                            Agile
+                        </li>
+                        <li class="main-right-item">
+                            JavaScript/ES6 (Beginner)
+                        </li>
+                        <li class="main-right-item">
+                            HTML5/CSS (Beginner)
+                        </li>
+                    </ul>
             </section>
             <section id="code">
                 <h2>Code example</h2>
-                <pre>
-                    <code class="code" data-language="javascript">
-                        function countBy(x, n) {
-                            let z = [x];
-                            let limit = x * n;
-                            let start = x;
-                            while (start < limit) {
-                            z.push(start += x);
-                            }
-                            return z;
-                        }
-                    </code>
-                </pre>
+                <code class="code" data-language="javascript">
+                    <pre>function countBy(x, n) {<br>    let z = [x];<br>    let limit = x * n;<br>    let start = x;<br>    while (start < limit) {<br>        z.push(start += x);<br>    }<br>    return z;<br>}</pre>
+                </code>
             </section>
             <section id="projects">
-                <ul style="main-right-list">
-                    <li style="main-right-item">
-                        <a href="https://Kazper91.github.io/rsschool-cv/cv">Rolling Scopes CV task #3</a>
-                    </li>
-                    <li style="main-right-item">
-                        Future projects are coming...
-                    </li>
-                </ul>
+                <h2>Projects</h2>
+                    <ul class="main-right-list">
+                        <li class="main-right-item">
+                            <a href="https://Kazper91.github.io/rsschool-cv/cv">Rolling Scopes CV task #3</a>
+                        </li>
+                        <li class="main-right-item">
+                            Future projects are coming...
+                        </li>
+                    </ul>
             </section>
         </div>
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <a class="footer-github" href="https://github.com/Kazper91">GitHub</a>
-            <a class="footer-codewars" href="https://www.codewars.com/users/Kazper91">Codewars</a>
-            <p>2022-2023</p>
-            <a class="footer-logo">
-                <img src="./assets/rsschool.png" alt="RSSchool Logo">
-            </a>
-        </div>
+        <span class="footer-year">2022-2023</span>
+        <a class="footer-github" href="https://github.com/Kazper91">GitHub</a>
+        <a class="footer-codewars" href="https://www.codewars.com/users/Kazper91">Codewars</a>
+        <a href="https://rs.school/js/">
+            <img src="./assets/rsschool.png" alt="RSSchool Logo" width="90px">
+        </a>
     </footer>
 </body>
 </html>
