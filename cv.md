@@ -17,7 +17,7 @@ I was born in **Minsk**, but currently I live and work in **Mogilev**.
 
 Ready for business trips and relocation.
 
-I consider myself as a creative and goal-oriented person. Confidently defend my point of view, trying to avoid any conflicts. Always open to objactive critics, I regulary try to improve myself both ways professionally and personally. There is no issue for me to get along with multicultural environments. Find myself as easygoing, diving deep into things and open to new opportunies person.
+I consider myself as a creative and goal-oriented person. Confidently defend my point of view, trying to avoid any conflicts. Always open to objective critics, I regularly try to improve myself both ways professionally and personally. There is no issue for me to get along with multicultural environments. Find myself as easygoing, diving deep into things and open to new opportunities person.
 
 My main goal is to become full-stack developer. And my first step is to graduate Rolling Scopes School JS/FE Courses.
 
