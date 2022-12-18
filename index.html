@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="description" content="Basic HTML5 schedule">
     <meta name="author" content="Kazper91">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="assets/favicon.ico">
     <title>Reutskiy Igor CV</title>
 </head>
@@ -22,12 +22,116 @@
         </nav>
     </header>
     
-    <main class="main"></main>
+    <main class="main">
+        <div class="main-left">
+            <photo>
+                <img class="photo" src="./assets/photo.jpg" alt="Photo" width="300px" height="300px">
+            </photo>
+            <section id="contacts">
+                <h2>Contacts</h2>
+                <ul class="main-left-list">
+                    <li class="main-left-item">
+                        <b>Discord:</b><br>
+                        Kazper91#0967
+                    </li>
+                    <li class="main-left-item">
+                        <b>Email:</b><br>
+                        <a href="mailto:kazper91@gmail.com">kazper91@gmail.com</a>
+                    </li>
+                    <li class="main-left-item">
+                        <b>Telegram:</b><br>
+                        +375447149281
+                    </li>
+                </ul>
+            </section>
+            <section id="education">
+                <h2>Education</h2>
+                <ul class="main-left-list">
+                    <li class="main-left-item">
+                        <b>Belorussian-Russian University:</b><br>
+                        Master's degree of engineering (Magistracy)<br>
+                        Graduated 2015, Engineering faculty, Engineering construction
+                    </li>
+                    <li class="main-left-item">
+                        <b>Belorussian-Russian University:</b><br>
+                        Civil engineer (Higher education)<br>
+                        Graduated 2014, Engineering faculty, Engineering construction
+                    </li>
+                    <li class="main-left-item">
+                        <b>English-level:</b><br>
+                        B1 (Intermediate)<br>
+                        2020, Streamline courses
+                    </li>
+                </ul>    
+            </section>
+        </div>
+
+        <div class="main-right">
+            <section class="title">
+                <h1>Igor</h1><br>
+                <h1>Reutskiy</h1><br>
+                <p>Rolling Scopes Student (Front-end course)</p>
+            </section>
+            <section id="summary">
+                <h2>Summary</h2>
+                <p>31 years old, married, no children.<br>
+                I consider myself as a creative and goal-oriented person. Confidently defend my point of view, trying to avoid any conflicts.<br>
+                Always open to objactive critics, I regulary try to improve myself both ways professionally and personally. There is no issue for me to get along with multicultural environments.<br>
+                Find myself as easygoing, diving deep into things and open to new opportunies person. Ready for business trips and relocation.</p>
+            </section>
+            <section id="skills">
+                <ul class="main-right-list">
+                    <li class="main-right-item">
+                        MS Project Professional
+                    </li>
+                    <li class="main-right-item">
+                        Bitrix24
+                    </li>
+                    <li class="main-right-item">
+                        Agile
+                    </li>
+                    <li class="main-right-item">
+                        JavaScript/ES6 (Beginner)
+                    </li>
+                    <li class="main-right-item">
+                        HTML5/CSS (Beginner)
+                    </li>
+                </ul>
+            </section>
+            <section id="code">
+                <h2>Code example</h2>
+                <pre>
+                    <code class="code" data-language="javascript">
+                        function countBy(x, n) {
+                            let z = [x];
+                            let limit = x * n;
+                            let start = x;
+                            while (start < limit) {
+                            z.push(start += x);
+                            }
+                            return z;
+                        }
+                    </code>
+                </pre>
+            </section>
+            <section id="projects">
+                <ul style="main-right-list">
+                    <li style="main-right-item">
+                        <a href="https://Kazper91.github.io/rsschool-cv/cv">Rolling Scopes CV task #3</a>
+                    </li>
+                    <li style="main-right-item">
+                        Future projects are coming...
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
 
     <footer class="footer">
         <div class="container">
             <a class="footer-github" href="https://github.com/Kazper91">GitHub</a>
-            <p class="footer-year">2022-2023</p>
+            <a class="footer-codewars" href="https://www.codewars.com/users/Kazper91">Codewars</a>
+            <p>2022-2023</p>
             <a class="footer-logo">
                 <img src="./assets/rsschool.png" alt="RSSchool Logo">
             </a>
